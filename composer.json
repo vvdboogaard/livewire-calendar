@@ -2,6 +2,7 @@
     "name": "vvdboogaard/livewire-calendar",
     "description": "Laravel Livewire calendar component",
     "keywords": [
+        "vvdboogaard",
         "asantibanez",
         "livewire-calendar"
     ],
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\": "src"
+            "vvdboogaard\\LivewireCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\Tests\\": "tests"
+            "vvdboogaard\\LivewireCalendar\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireCalendar\\LivewireCalendarServiceProvider"
+                "vvdboogaard\\LivewireCalendar\\LivewireCalendarServiceProvider"
             ],
             "aliases": {
-                "LivewireCalendar": "Asantibanez\\LivewireCalendar\\LivewireCalendarFacade"
+                "LivewireCalendar": "vvdboogaard\\LivewireCalendar\\LivewireCalendarFacade"
             }
         }
     }
